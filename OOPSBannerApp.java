@@ -11,7 +11,6 @@ public class OOPSBannerApp {
         lines[5] = String.join(" ", " **   ** ", " **   **  ", " *        ", "**    **  ");
         lines[6] = String.join(" ", "   ***   ", "   ***    ", " *        ", "  *****   ");
 
-        // Loop to print banner
         for (int i = 0; i < lines.length; i++) {
             System.out.println(lines[i]);
         }
